@@ -433,11 +433,11 @@ nav ul li a:hover {
 }
 /* Other CSS styles above... */
 
-@media (max-width: 768px) {
-  .about,
-  .projects,
-  .contact {
-    padding: 20px 5%;
-  }
-}
+    .about,
+    .projects,
+    .contact {
+        min-height: 90vh;
+        padding: 20px;
+    }
+
 
