@@ -431,4 +431,13 @@ nav ul li a:hover {
         text-align: center;
     }
 }
+/* Other CSS styles above... */
+
+@media (max-width: 768px) {
+  .about,
+  .projects,
+  .contact {
+    padding: 20px 5%;
+  }
+}
 
