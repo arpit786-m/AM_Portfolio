@@ -405,3 +405,30 @@ nav ul li a:hover {
         display: flex;
     }
 }
+/* Button Styling */
+.button-group a.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+/* Hover effect */
+.button-group a.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive layout for phones */
+@media (max-width: 600px) {
+    .button-group a.btn {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+
