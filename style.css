@@ -37,6 +37,7 @@ body.dark-mode {
 body {
     background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Or any desired color */
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 html {
